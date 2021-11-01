@@ -1,12 +1,16 @@
-import React from "react"
+import React from "react";
 
-//import css reset file 
-import "./assets/css/css-reset.css"
+//import components
+import Main from "./components/Main.jsx";
+
+//import css reset file
+import "./assets/css/css-reset.css";
+
 
 function App() {
   return (
     <React.Fragment>
-    <h1>hi</h1>
+      <Main />
     </React.Fragment>
   );
 }

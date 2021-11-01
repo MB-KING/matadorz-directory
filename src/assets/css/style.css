@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  font-family: IRANSans !important;
+  font-weight: bold;
+}
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  background-color: black;
+  color: blanchedalmond;
+  width: 1000px;
+  display: flex;
+}
+.items {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.item {
+  background-color: blue;
+  border-radius: 1rem;
+  margin: 1rem;
+  padding: 1rem 3rem 1rem 3rem ;
+  font-size: 2rem;
+  cursor: pointer;
+}
